@@ -23,6 +23,7 @@ personal-expense-tracker/
 ├── README.md
 ├── expense.py
 └── main.py
+
 ## Requirements
 
 - Python 3.x
@@ -40,6 +41,7 @@ cd personal-expense-tracker
 Run the program:
 
 python main.py
+
 ## Usage
 
 After starting the application, the following menu is displayed:
@@ -67,3 +69,5 @@ Some features that could be added in future versions include:
 - Automated tests
 - Data visualization
 - Database support
+
+
