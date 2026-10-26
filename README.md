@@ -25,7 +25,6 @@ personal-expense-tracker/
 └── main.py
 
 ## Requirements
-
 - Python 3.x
 
 No external packages are required.
@@ -39,7 +38,6 @@ Move into the project directory:
 
 cd personal-expense-tracker
 Run the program:
-
 python main.py
 
 ## Usage
