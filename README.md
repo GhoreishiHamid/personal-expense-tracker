@@ -60,6 +60,7 @@ Date,Amount,Category,Description
 2026-09-20,12.50,Food,Lunch
 2026-09-21,8.00,Transport,Bus ticket
 2026-09-22,25.00,Education,Programming book
+
 ## Possible Improvements
 
 Some features that could be added in future versions include:
