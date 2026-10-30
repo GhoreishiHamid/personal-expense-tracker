@@ -68,5 +68,3 @@ Some features that could be added in future versions include:
 - Automated tests
 - Data visualization
 - Database support
-
-
