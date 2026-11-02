@@ -1,4 +1,5 @@
 # Personal Expense Tracker
+
 A lightweight command-line application for tracking personal expenses, built with Python.
 
 The application allows users to record daily expenses, organize them by category, review previous entries, delete records, and calculate total spending. Expense data is stored locally in a CSV file, keeping the project simple and easy to run without a database or external dependencies.
@@ -40,6 +41,7 @@ Run the program:
 python main.py
 
 ## Usage
+
 After starting the application, the following menu is displayed:
 
 ===== Personal Expense Tracker =====
@@ -58,6 +60,7 @@ Date,Amount,Category,Description
 2026-09-22,25.00,Education,Programming book
 
 ## Possible Improvements
+
 Some features that could be added in future versions include:
 
 - Filtering expenses by date or category
@@ -65,5 +68,6 @@ Some features that could be added in future versions include:
 - Automated tests
 - Data visualization
 - Database support
+
 
 
