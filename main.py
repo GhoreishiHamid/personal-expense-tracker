@@ -5,8 +5,7 @@ def show_menu():
     print("3. Delete Expense")
     print("4. Show Total Expenses")
     print("5. Exit")
-
-
+    
 def main():
     while True:
         show_menu()
@@ -31,6 +30,6 @@ def main():
         else:
             print("Invalid choice. Please enter a number between 1 and 5.")
 
-
 if __name__ == "__main__":
     main()
+    
