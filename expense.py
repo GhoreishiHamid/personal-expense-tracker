@@ -5,7 +5,6 @@ from datetime import datetime
 FILE_NAME = "data/expenses.csv"
 HEADERS = ["Date", "Amount", "Category", "Description"]
 
-
 def ensure_data_file():
     os.makedirs("data", exist_ok=True)
 
@@ -13,7 +12,6 @@ def ensure_data_file():
         with open(FILE_NAME, "w", newline="", encoding="utf-8") as file:
             writer = csv.writer(file)
             writer.writerow(HEADERS)
-
 
 def add_expense():
     ensure_data_file()
@@ -42,7 +40,6 @@ def add_expense():
 
     print("Expense added successfully!")
 
-
 def view_expenses():
     ensure_data_file()
 
@@ -62,7 +59,6 @@ def view_expenses():
             f"Category: {row[2]} | "
             f"Description: {row[3]}"
         )
-
 
 def delete_expense():
     ensure_data_file()
@@ -96,7 +92,6 @@ def delete_expense():
     print(
         f"Expense '{deleted_expense[3]}' deleted successfully!"
     )
-
 
 def show_total():
     ensure_data_file()
