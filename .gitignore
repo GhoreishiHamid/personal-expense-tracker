@@ -9,6 +9,7 @@ __pycache__/
 # Distribution / packaging
 .Python
 build/
+
 develop-eggs/
 dist/
 downloads/
@@ -17,12 +18,15 @@ eggs/
 lib/
 lib64/
 parts/
+
 sdist/
 var/
 wheels/
+
 share/python-wheels/
 *.egg-info/
 .installed.cfg
+
 *.egg
 MANIFEST
 
@@ -43,6 +47,7 @@ htmlcov/
 .nox/
 .coverage
 .coverage.*
+
 .cache
 nosetests.xml
 coverage.xml
@@ -59,6 +64,7 @@ cover/
 # Django stuff:
 *.log
 local_settings.py
+
 db.sqlite3
 db.sqlite3-journal
 
