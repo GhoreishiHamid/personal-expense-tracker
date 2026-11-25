@@ -2,8 +2,10 @@ import csv
 import os
 from datetime import datetime
 
+
 FILE_NAME = "data/expenses.csv"
 HEADERS = ["Date", "Amount", "Category", "Description"]
+
 
 def ensure_data_file():
     os.makedirs("data", exist_ok=True)
@@ -60,6 +62,7 @@ def view_expenses():
             f"Description: {row[3]}"
         )
 
+
 def delete_expense():
     ensure_data_file()
 
@@ -83,6 +86,7 @@ def delete_expense():
         print("Please enter a valid number.")
         return
 
+    
     deleted_expense = rows.pop(choice)
 
     with open(FILE_NAME, "w", newline="", encoding="utf-8") as file:
@@ -96,11 +100,13 @@ def delete_expense():
 def show_total():
     ensure_data_file()
 
+    
     total = 0.0
 
     with open(FILE_NAME, "r", newline="", encoding="utf-8") as file:
         reader = csv.DictReader(file)
 
+        
         for row in reader:
             try:
                 total += float(row["Amount"])
